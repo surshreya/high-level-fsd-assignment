@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# High-Level FSD Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a high-level Full Stack Development (FSD) assignment, aiming to provide a foundation for building a web application with user-related functionalities. The project includes components for managing user information, permissions, and roles.
 
-## Available Scripts
+## Project Structure
 
-In the project directory, you can run:
+The project is organized into the following components:
 
-### `npm start`
+### User
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The `User` component serves as the main container for managing user-related pages and features.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### User Pages:
 
-### `npm test`
+1. **UserInfoPage:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   - Displays user profile information.
+   - Includes a form for editing user details.
 
-### `npm run build`
+2. **UserPermissionsPage:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   - Manages user permissions through toggle buttons.
+   - Allows users to control access to various modules.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **UserRolePage:**
+   - Provides information about the user's role.
+   - Includes features for managing and updating the user's role.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Accordion
 
-### `npm run eject`
+The `Accordion` component is a custom implementation for displaying collapsible sections. It is used to organize and present the different user-related pages within the `User` component.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To use this project, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the Repository:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   git clone git@github.com:surshreya/high-level-fsd-assignment.git
+   ```
 
-## Learn More
+2. **Navigate to the Project Directory:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   cd high-level-fsd-assignment
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Install Dependencies:**
 
-### Code Splitting
+   ```bash
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. **Run the Application:**
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   npm start
+   ```
