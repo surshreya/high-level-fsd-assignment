@@ -2,6 +2,8 @@
 
 This project is a high-level Full Stack Development (FSD) assignment, aiming to provide a foundation for building a web application with user-related functionalities. The project includes components for managing user information, permissions, and roles.
 
+![App Demo](./src/assets/overview.gif)
+
 ## Project Structure
 
 The project is organized into the following components:
